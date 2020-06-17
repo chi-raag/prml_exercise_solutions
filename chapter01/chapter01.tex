@@ -22,6 +22,15 @@ Consider the sum-of-squares error function given by (1.2) in which the function 
 
 \subsubsection*{Solution}
 
+Substitute (1.1) into (1.2), and then let the derivative of the error term with respect to $\mathbf{w}$ equal 0: 
+
+$$\frac{\delta E}{\delta w} = \sum_{n=1}^N(\sum_{j=0}^M w_jx_n^j - t_n)x_n^i = 0$$
+
+$$\sum_{n=1}^N\sum_{j=0}^M w_jx_n^{i+j} = \sum_{n=1}^N x_n^i t_n$$
+
+This can be simplified to resemble equation (1.222)
+
+\subsection*{Exercise 1.2}
 
 
 \end{document}
