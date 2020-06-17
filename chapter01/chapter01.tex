@@ -1,0 +1,27 @@
+\documentclass[12pt]{article}
+\setlength{\parindent}{0em}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+ 
+\begin{document}
+ 
+\title{Pattern Recognition and Machine Learning}
+\author{Chiraag Gohel\\
+Chapter 1 - Introduction}
+
+\subsection*{Exercise 1.1} 
+
+\subsubsection*{Problem}
+Consider the sum-of-squares error function given by (1.2) in which the function $y(x,w)$ is given by the polynomial (1.1). Show that the coefficients $w = {w_i}$ that minimize this error function are given by the solution to the following set of linear equations: $\sum_{j=0}^M A_{ij}w_j = T_i$, where $A_{ij} = \sum_{n=1}^N (x_n)^{i+j}$, and $T_i = \sum_{n=1}^n (x_n)^i t_n$
+
+\subsubsection*{Formulae}
+(1.1): $y(x, \mathbf{w}) = w_0 + w_1x + w_2x^2 + ... + w_Mx^M = \sum_{j=0}^M w_jx^j$
+
+(1.2): $E(\mathbf{w}) = \frac{1}{2}\sum_{n=1}^N {y(x_n, \mathbf{w}) - t_n}^2$
+
+\subsubsection*{Solution}
+
+
+
+\end{document}
